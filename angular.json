@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Angular-i18n-ex1": {
+    "angular-i18n-ex1": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
