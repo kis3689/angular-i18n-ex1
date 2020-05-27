@@ -4,6 +4,7 @@
     <body>
       <trans-unit id="constructionHeader" datatype="html">
         <source>Hello!</source>
+        <target>안녕하세요!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">3</context>
@@ -13,6 +14,7 @@
       </trans-unit>
       <trans-unit id="constructionDescription" datatype="html">
         <source>This is test.</source>
+        <target>이것은 테스트입니다.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">4</context>

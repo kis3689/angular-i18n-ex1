@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="id" datatype="plaintext" original="ng2.template">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="introductionHeader" datatype="html">
-        <source>
-          Hello i18n!
-        </source>
-        <target>
-          halo i18n!
-        </target>
+      <trans-unit id="constructionHeader" datatype="html">
+        <source>Hello!</source>
+        <target>Halo!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">1</context>
+          <context context-type="linenumber">3</context>
         </context-group>
-        <note priority="1" from="description">An introduction header for this sample</note>
-        <note priority="1" from="meaning">User welcome</note>
+        <note priority="1" from="description">Title for the under construction card</note>
+        <note priority="1" from="meaning">Card Header</note>
       </trans-unit>
-      <trans-unit id="68450cd553fdae2f78a6d36da66f49b15b9aa9e2" datatype="html">
-        <source>
-          good morning!
-        </source>
-        <target>
-          selamat pagi!
-        </target>
+      <trans-unit id="constructionDescription" datatype="html">
+        <source>This is test.</source>
+        <target>Ini tes.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="linenumber">4</context>
         </context-group>
+        <note priority="1" from="description">Description for the under construction card</note>
+        <note priority="1" from="meaning">Card Description</note>
       </trans-unit>
     </body>
   </file>
